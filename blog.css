@@ -1,0 +1,34 @@
+body{
+    
+    color: purple;
+    font-family: Montserrat;
+    background-color: #fff3e4;
+}
+
+.div
+{
+    text-align: center;
+}
+td ,th{
+    
+    border: 3px solid purple;
+    border-radius: 3px; 
+    border-top: none;
+
+    
+  }
+  table{
+    border-spacing: 30px;
+    padding: 20px;
+  }
+th{
+    border-bottom: none;
+    border-top: 3px solid purple;
+}
+
+.center {
+    display: block;
+  }
+#ta{
+    text-align: center;
+}

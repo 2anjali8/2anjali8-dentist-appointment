@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./navbar.css" />
+	<link rel="stylesheet" href="./footer.css" />
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+
+.icon {
+  padding: 10px;
+  background: #C8A2C8;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid #C8A2C8;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #C8A2C8;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+x
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body style="background-color:#C8A2C8;">
+<img src="Doctors-pana.svg" style="height:700px; width:700px; margin-bottom:-700px;">
+<div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="homepage.html" class="active" style="color:#F0ECD4;">HOME</a></li>
+            <li><a href="team.html" style="color:#F0ECD4;">OUR TEAM</a></li>
+           
+            <li><a href="appointment.html" style="color:#F0ECD4;">BOOK AN APPOINTMENT</a></li>
+            <li><a target="_blank" href="blog.html" style="color:#F0ECD4;">BLOG</a></li>
+            <li><a href="#" style="color:#F0ECD4;">CONTACT US</a></li>
+			<li><a href="testimonials.html" style="color:#F0ECD4;">TESTIMONIALS</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars fa-lg icon-color" onclick="showMenu()"></i>
+      </nav>
+
+<form action="appointment.php" method= "POST" style="max-width:500px;margin-top:200px;margin-top:110px; margin-left:500px; margin-left:850px;background-color:#F0ECD4; padding:90px; border:1px solid #F8F0C6; border-radius:20px; box-shadow:5px 10px #888888;">
+ <center> <h2>Appointment form</h2></center>
+  
+
+  <div class="input-container">
+    <img src="card.png" style="height:30px; width:30px;">
+    <input class="input-field" type="text" placeholder="Name here" name="appname">
+  </div>
+  
+  <div class="input-container">
+    <img src="gmail.png" style="height:30px; width:30px; margin-right:5px;">
+    <input class="input-field" type="text" placeholder="Email" name="appemail">
+  </div>
+  
+  <div class="input-container">
+    <img src="telephone.png" style="height:30px; width:30px; margin-right:5px;">
+    <input class="input-field" type="text" placeholder="Mobile Number" name="appnumber">
+  </div>
+  
+  <div class="input-container">
+    <img src="placeholder.png" style="height:30px; width:30px; margin-right:5px;">
+    <input class="input-field" type="text" placeholder="Address" name="appadd">
+  </div>
+  
+  <div class="input-container">
+    <img src="weight-loss.png" style="height:30px; width:30px; margin-right:5px;">
+    <input class="input-field" type="text" placeholder="Weight in kgs" name="appweight">
+  </div>
+  
+  <div class="input-container">
+    <img src="height.png" style="height:30px; width:30px; margin-right:5px;">
+    <input class="input-field" type="text" placeholder="Height in cms" name="appheight" style="margin-bottom:60px;">
+  </div>
+  
+  <div class="input-container">
+    <h5 style="margin-top:10px;">Birthdate:</h5>
+    <input class="input-field" type="text" placeholder="Birthdate like 06-03-03" name="appbdate">
+  </div>
+  
+  <div class="input-container">
+    <h5 style="margin-top:10px;">Appointment date:</h5>
+    <input class="input-field" type="text" placeholder="Appointment date" name="appdate">
+  </div>
+  <div class="input-container">
+    <h5 style="margin-top:10px;">Appointment time:</h5>
+    <input class="input-field" type="text" placeholder="Ex: 3pm" name="apptime">
+  </div>
+  
+ <button type="submit" class="btn">Submit</button>
+</form>
+<div class="footer-1" style="margin-top:200px;">
+    <footer style="background:#9559B2;">
+        <div class="footer-2" style="background:#9559B2;">
+            <div class="sec aboutus" style="background:#9559B2;">
+                <h2 style="background:#9559B2;">Abous Us</h2>
+                <p style="background:#9559B2;">Simple Denty is one of those clinics which not only treats you well but also helps you maintain you smile the same throughout. We had started in 2000 and now we have in-total of 10 doctors. We are always ready to treat you, visit for check-up now!
+                </p>
+            <ul class="sci" style="background:#9559B2;">
+                <li style="background:#9559B2;"><a href="#" style="background:#9559B2;"><i class="fa fa-facebook" aria-hidden="true"style="background:#9559B2;"></i></a></li>
+                <li style="background:#9559B2;"><a href="#" style="background:#9559B2;"><i class="fa fa-twitter" aria-hidden="true"style="background:#9559B2;"></i></a></li>
+                <li style="background:#9559B2;"><a href="#" style="background:#9559B2;"><i class="fa fa-instagram" aria-hidden="true"style="background:#9559B2;"></i></a></li>
+                <li style="background:#9559B2;"><a href="#" style="background:#9559B2;"><i class="fa fa-linkedin" aria-hidden="true"style="background:#9559B2;"></i></a></li>
+            </ul>
+            </div>
+            <div class="sec quickLinks" style="background:#9559B2;">
+                <h2 style="background:#9559B2;" >Quick Links</h2>
+                <ul style="background:#9559B2;">
+                    <li style="background:#9559B2;"><a href="#" style="background:#9559B2;">Home</a></li>
+                    <li style="background:#9559B2;"><a href="#" style="background:#9559B2;">About</a></li>
+                    <li style="background:#9559B2;"><a href="#" style="background:#9559B2;">Services</a></li>
+                    <li style="background:#9559B2;"><a href="#" style="background:#9559B2;">Book an appointment</a></li>
+                    <li style="background:#9559B2;"><a href="#" style="background:#9559B2;">Blog</a></li>
+                    <li style="background:#9559B2;"><a href="#" style="background:#9559B2;">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sec contact-foot" style="background:#9559B2;">
+                <h2 style="background:#9559B2;">Contact Info</h2>
+                <ul class="info" style="background:#9559B2;">
+                    <li style="background:#9559B2;">
+                        <span style="background:#9559B2;"><i class="fa fa-map-marker" aria-hidden="true" style="background:#9559B2;"></i></span>
+                        <span style="background:#9559B2;">abc street near lmn,<br style="background:#9559B2;">abcd behind lm <br style="background:#9559B2;"> Baroda, 39000</span>
+                    </li>
+                    <li style="background:#9559B2;">
+                        <span style="background:#9559B2;"><i class="fa fa-phone" aria-hidden="true" style="background:#9559B2;"></i></span>
+                        <p style="background:#9559B2;"><a href="tel:919999999999" style="background:#9559B2;">+91 9999999999</a></p>
+                    </li>
+                    <li style="background:#9559B2;">
+                        <span style="background:#9559B2;"><i class="fa fa-envelope" aria-hidden="true" style="background:#9559B2;"></i></span>
+                        <p><a href="mailto:contact@simplydenty.com" style="background:#9559B2;">contact@simplydenty.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyrightText">
+        <p style="background:#181818;">Copyright @Basics of Web-Programming Project ~MSU, Baroda</p>
+    </div>
+
+</body>
+</html>

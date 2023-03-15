@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BLOG</title>
+<link rel="stylesheet" href="project.css">
+<link rel="stylesheet" href="./navcontact.css" />
+	<link rel="stylesheet" href="./footer.css" />
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0 20px;
+
+  
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  border: 2px solid #9559B2;
+  
+}
+
+.container {
+  padding: 0 16px;
+  border-spacing: 30px;
+
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #9559B2;
+}
+.header {
+  overflow: hidden;
+  background-color: #fff3e4;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: #fff3e4;
+  background-color: #9559B2;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #fff3e4;
+  color: #9559B2;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="homepage.html" class="active" style="color:#9559B2;">HOME</a></li>
+            <li><a href="team.html" style="color:#9559B2;">OUR TEAM</a></li>
+           
+            <li><a href="appointment.html" style="color:#9559B2;">BOOK AN APPOINTMENT</a></li>
+            <li><a target="_blank" href="blog.html" style="color:#9559B2;">BLOG</a></li>
+            <li><a href="Contact-Denty copy.html" style="color:#9559B2;">CONTACT US</a></li>
+			<li><a href="testimonials.html" style="color:#9559B2;">TESTIMONIALS</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars fa-lg icon-color" onclick="showMenu()"></i>
+      </nav>
+	  
+<h1 id="ta">BLOG</h1>
+<h2 id="ta">WE ARE HERE TO TAKE CARE ABOUT YOUR DENTAL HEALTH!!</h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="header">
+        <a href="toothbrush.html" class="logo"><h4> HOW TO CHOOSE A TOOTHBRUSH?</h4></a>
+        </div>
+      <div class="container">
+        <p class="title">Choosing a toothbrush can be a daunting task but with these tips it can be easy!<br>
+            Find the one that’s best for your teeth and gums.<br>  
+            <a href="toothbrush.html">read more</a></p>
+    </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="header">
+        <a href="fruit.html" class="logo"><h4>EAT YOUR FRUIT DON'T DRINK IT!</h4></a>
+        </div>
+      <div class="container">
+        <p class="title">Fruit juice can harm your TEETH!<br>
+          is drinking fruit juice is bad for your teeth? <br>
+          here's how you and your children can enjoy fruits.<br>  
+          <a href="fruit.html">read more</a></p></div>
+      </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="header">
+        <a href="dentalhygiene.html" class="logo"><h4>5 WAYS TO IMPROVE DENTAL HYGIENE</h4></a>
+        </div>
+      <div class="container">
+        <p class="title">Brushing and flossing are the building blocks of good oral health.<br>
+          Learn 5 ways to improve your dental hygiene routine.<br>  
+          <a href="dentalhygiene.html">read more</a></p></div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="header">
+          <a href="oci.html" class="logo"><h4> SEE HERE,ORAL CANCER INDICATORS</h4></a>
+          </div>
+        <div class="container">
+          <p class="title"> Oral cancer affects over 53,000 people a year.<br>
+            Learn oral cancer signs and how Dental Associates dentists monitor patients for symptoms.<br>  <a href="oci.html">read more</a></p></div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <div class="header">
+          <a href="braces.html" class="logo"><h4>STRAIGHT TALK ABOUT PLANNING FOR BRACES</h4></a>
+          </div>
+        <div class="container">
+          <p class="title">Parents have come to expect braces as an additional expense for their kids <br>
+            Here’s how you can plan for the cost of braces.<br><a href="braces.html">read more</a></p></div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <div class="header">
+          <a href="babyteeth.html" class="logo"><h4>WHY ARE BABY TEETH SO IMPORTANT?</h4></a>
+          </div>
+        <div class="container">
+          <p class="title">Making sure your child has great overall health starts with great oral health.<br>
+            Learn why baby teeth are so important to protect.<br>  
+            <a href="babyteeth.html">read more</a></p></div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="header">
+          <a href="tips.html" class="logo"><h4>5 TIPS FOR CHOOSING YOUR DENTIST</h4></a>
+          </div>
+        <div class="container">
+          <p class="title">Choosing new doctors can be tricky! <br>
+            Here are some tips from a dentist to make it a little easier.<br><a href="tips.html">read more</a></p></div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <div class="header">
+          <a href="cheese.html" class="logo"><h4>IS CHEESE ACTUALLY GOOD FOR YOUR HEALTH?</h4></a>
+          </div>
+        <div class="container">
+          <p class="title">January 20 is National Cheese Lover’s Day and we have a new reason to celebrate! <br>
+            hygienist shares why cheese is good for your teeth.<br>
+              <a href="cheese.html">read more</a></p></div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <div class="header">
+          <a href="spots.html" class="logo"><h4>WHY DO I HAVE WHITE SPOTS ON MY TEETH?</h4></a>
+          </div>
+        <div class="container">
+          <p class="title">White spots on your teeth are often harmless but may be indicators of bigger health issues.<br>
+            Here are some signs of bigger health concerns.<br>
+             <a href="spots.html">read more</a></p></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-1">
+    <footer style="background:#9559B2;">
+        <div class="footer-2" style="background:#9559B2;">
+            <div class="sec aboutus" style="background:#9559B2;">
+                <h2 style="background:#9559B2;">Abous Us</h2>
+                <p style="background:#9559B2;">Simple Denty is one of those clinics which not only treats you well but also helps you maintain you smile the same throughout. We had started in 2000 and now we have in-total of 10 doctors. We are always ready to treat you, visit for check-up now!
+                </p>
+            <ul class="sci" style="background:#9559B2;">
+                <li style="background:#9559B2;"><a href="#" style="background:#9559B2;"><i class="fa fa-facebook" aria-hidden="true"style="background:#9559B2;"></i></a></li>
+                <li style="background:#9559B2;"><a href="#" style="background:#9559B2;"><i class="fa fa-twitter" aria-hidden="true"style="background:#9559B2;"></i></a></li>
+                <li style="background:#9559B2;"><a href="#" style="background:#9559B2;"><i class="fa fa-instagram" aria-hidden="true"style="background:#9559B2;"></i></a></li>
+                <li style="background:#9559B2;"><a href="#" style="background:#9559B2;"><i class="fa fa-linkedin" aria-hidden="true"style="background:#9559B2;"></i></a></li>
+            </ul>
+            </div>
+            <div class="sec quickLinks" style="background:#9559B2;">
+                <h2 style="background:#9559B2;" >Quick Links</h2>
+                <ul style="background:#9559B2;">
+                    <li style="background:#9559B2;"><a href="#" style="background:#9559B2;">Home</a></li>
+                    <li style="background:#9559B2;"><a href="homepage.html" style="background:#9559B2;">About</a></li>
+           
+                    <li style="background:#9559B2;"><a href="appointment.html" style="background:#9559B2;">Book an appointment</a></li>
+                    <li style="background:#9559B2;"><a href="blog.html" style="background:#9559B2;">Blog</a></li>
+                    <li style="background:#9559B2;"><a href="Contact-Denty copy.html" style="background:#9559B2;">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sec contact-foot" style="background:#9559B2;">
+                <h2 style="background:#9559B2;">Contact Info</h2>
+                <ul class="info" style="background:#9559B2;">
+                    <li style="background:#9559B2;">
+                        <span style="background:#9559B2;"><i class="fa fa-map-marker" aria-hidden="true" style="background:#9559B2;"></i></span>
+                        <span style="background:#9559B2;">abc street near lmn,<br style="background:#9559B2;">abcd behind lm <br style="background:#9559B2;"> Baroda, 39000</span>
+                    </li>
+                    <li style="background:#9559B2;">
+                        <span style="background:#9559B2;"><i class="fa fa-phone" aria-hidden="true" style="background:#9559B2;"></i></span>
+                        <p style="background:#9559B2;"><a href="tel:919999999999" style="background:#9559B2;">+91 9999999999</a></p>
+                    </li>
+                    <li style="background:#9559B2;">
+                        <span style="background:#9559B2;"><i class="fa fa-envelope" aria-hidden="true" style="background:#9559B2;"></i></span>
+                        <p><a href="mailto:contact@simplydenty.com" style="background:#9559B2;">contact@simplydenty.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyrightText">
+        <p style="background:#181818;">Copyright @Basics of Web-Programming Project ~MSU, Baroda</p>
+    </div>
+</body>
+</html>
